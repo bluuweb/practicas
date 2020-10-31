@@ -37,7 +37,7 @@ A base del desafío de [Dorian Desings](https://www.youtube.com/user/DorianDesig
         </div>
     </nav>
 
-    <section class="container filter-content my-2">
+    <header class="container filter-content my-2">
         <form id="formulario">
             <input type="text" placeholder="Search for a country" id="inputTexto">
         </form>
@@ -52,11 +52,11 @@ A base del desafío de [Dorian Desings](https://www.youtube.com/user/DorianDesig
                 <option value="Oceania">Oceanía</option>
             </select>
         </div>
-    </section>
+    </header>
 
-    <section class="container grid" id="banderas">
+    <main class="container grid" id="banderas">
        
-        <div class="card">
+        <article class="card">
             <img src="https://restcountries.eu/data/ala.svg" alt="" class="img-fluid">
             <div class="card-content">
                 <h3>Germany</h3>
@@ -73,9 +73,9 @@ A base del desafío de [Dorian Desings](https://www.youtube.com/user/DorianDesig
                     Berlín
                 </p>
             </div>
-        </div>
+        </article>
 
-    </section>
+    </main>
 
     <!-- El orden de los js es importante -->
     <script src="js/darkmode.js"></script>
@@ -90,15 +90,17 @@ A base del desafío de [Dorian Desings](https://www.youtube.com/user/DorianDesig
 ## Base CSS
 ```css
 /* :root {
-    --color-bg-dark: #202D36;
-    --color-bg-dark-secondary: #2B3743;
-    --color-bg-light: #FAFAFA;
-    --color-light: #ffffff;
+    --color-bg: #bdbdbd;
+    --color-bg-secondary: #ffffff;
+    --color-text: #000000;
 } */
 
-*, *:before, *:after {
+html {
     box-sizing: border-box;
-    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -159,12 +161,11 @@ body {
 }
 
 .card-content {
-    margin: 2rem auto;
-    width: 80%;
+    padding: 2rem;
 }
 
 .card-content h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 1000px) {
@@ -180,8 +181,8 @@ body {
 }
 
 @media (max-width: 600px) {
-    .navbar {
-        font-size: .7rem;
+    .navbar-content {
+        font-size: 0.7rem;
     }
 
     .filter-content {
@@ -211,17 +212,17 @@ body {
 
 ```css
 .btn-dark-mode {
-    background-color: var(--color-dark-secondary);
-    opacity: 0.6;
+    background-color: var(--color-bg-secondary);
+    opacity: 1;
     transition: 0.3s;
-    color: var(--color-light);
+    color: var(--color-text);
     border: none;
     cursor: pointer; /* border none lo borra */
     outline: none; /* quitamos el borde al hacer click */
 }
 
 .btn-dark-mode:hover {
-    opacity: 1;
+    opacity: 0.6;
 }
 ```
 
