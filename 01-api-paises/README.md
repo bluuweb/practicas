@@ -615,9 +615,9 @@ const formularioReal = (data) => {
 
 ## Región (option.js)
 
-```html
+```html{4}
 <div class="custom-select">
-    <select id="filtroSelect">
+    <select>
         <option value="">Filter by Region</option>
         <option value="">Todos</option>
         <option value="Africa">África</option>
@@ -627,6 +627,20 @@ const formularioReal = (data) => {
         <option value="Oceania">Oceanía</option>
     </select>
 </div>
+```
+
+FiltrarDatos (Ejemplo)
+1. Necesitamos caputar el value y lo guardamos en la query
+2. Preguntamos si existe algo en la query
+3. Si existe algo filtramos los resultados y pintamos
+4. data: son nuestros datos de la api
+```js
+if (query === '') {
+    banderillas(data)
+} else {
+    const filterData = data.filter(item => item.region === query)
+    banderillas(filterData)
+}
 ```
 
 1. Envolver todo en la función ``filtrarDatos``
@@ -905,3 +919,6 @@ const banderillas = (data) => {
     bandera.innerHTML = elementos
 }
 ```
+
+## Preguntas y Respuestas
+- [https://discord.gg/xSceUPh](https://discord.gg/xSceUPh)
