@@ -1,6 +1,9 @@
 # Dark Mode
 Aprendamos a crear temas oscuros para nuestros desarrollos web con CSS y Javascript.
 
+## Preguntas y Respuestas
+- [https://discord.gg/xSceUPh](https://discord.gg/xSceUPh)
+
 ## Recursos
 - [https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/)
 - [https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
