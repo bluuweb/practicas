@@ -18,6 +18,7 @@ module.exports = {
       [
         '/',
         '/01-api-paises/',
+        '/02-dark-mode/',
       ]
   }
  
