@@ -36,12 +36,20 @@ Desafío nivel "Novato (Newbie)", aunque para mi no es tan fácil jijij 😜
 - [< article >](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/article)
 - [color hsl](https://developer.mozilla.org/es/docs/Web/CSS/color_value)
 - [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- []()
 
 ## Apoya el canal de bluuweb! ❤
 
 [<img :src="$withBase('/img/vue-js.jpg')">](http://curso-vue-js-udemy.bluuweb.cl)
 [<img :src="$withBase('/img/react-js.jpg')">](http://curso-react-js-udemy.bluuweb.cl)
+
+## Redes sociales
+- [Youtube](https://www.youtube.com/bluuweb)
+- [Bluuweb.org](https://bluuweb.org)
+- [Discord](https://discord.gg/xSceUPh)
+- [Twitch](https://www.twitch.tv/bluuweb)
+- [Instagram](https://www.instagram.com/bluuweb_youtube)
+- [Facebook](https://www.facebook.com/bluuweb)
+- [Twitter](https://twitter.com/bluuweb)
 
 ## Estructura de archivos
 

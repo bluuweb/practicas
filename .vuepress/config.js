@@ -19,6 +19,7 @@ module.exports = {
       [
         '/',
         '/03-card/',
+        '/04-card-poke/',
         '/01-api-paises/',
         '/02-dark-mode/',
       ]
